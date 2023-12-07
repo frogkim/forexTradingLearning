@@ -35,7 +35,7 @@ trading.py
     - Update result data and store as text file  
 
 ### 1. Structure
-![Neural Net](https://github.com/frogkim/publishdata/blob/main/images/ForexTradingLearning/structure.png)  
+![Neural Net](https://github.com/frogkim/pictures/blob/main/ftl_02.png)  
 There are two neural networks, target and main.
         
         <neurals.py>
@@ -74,25 +74,14 @@ There are two neural networks, target and main.
             self.targetDQN.Copy(self.mainDQN)        
 
 ### 2. Application screen
-![GUI](https://github.com/frogkim/publishdata/blob/main/images/ForexTradingLearning/dqn.png)    
+![GUI](https://github.com/frogkim/pictures/blob/main/ftl_01.pngg)    
   tkinter is used for gui interface. It helps to control machine conveniently.  
 
 ### 3. Reulst
-![Result Text](https://github.com/frogkim/publishdata/blob/main/images/ForexTradingLearning/result.png)  
-Trading result graph shows increasing but decaying progress.
-It shows that the machine is learning strategy and take better strategy to trade.
-However, it could not make a profit. Starting balance is 1,000.
-Its best performance under 900. It is success to reduce loss, but it is still net loss.  
-
-![Result Tensorboard](https://github.com/frogkim/publishdata/blob/main/images/ForexTradingLearning/tensorboard.png)  
+![Result Tensorboard](https://github.com/frogkim/pictures/blob/main/ftl_04.png)  
 Tensorboard is tool of tensorflow for visualization.  
 MSE(Mean Square Error) is error term between a machine's prediction and target.  
 This graph shows that learning is successful.  
-
-
-![Result Gragh](https://github.com/frogkim/publishdata/blob/main/images/ForexTradingLearning/result2.png)  
-This graph shows opening positions of long and short.  
-It is supposed that the successful factor to reduce loss is to reduce trading.   
 
 
 ### 4. Conclusion  
