@@ -74,7 +74,7 @@ There are two neural networks, target and main.
             self.targetDQN.Copy(self.mainDQN)        
 
 ### 2. Application screen
-![GUI](https://github.com/frogkim/pictures/blob/main/ftl_01.pngg)    
+![GUI](https://github.com/frogkim/pictures/blob/main/ftl_01.png)    
   tkinter is used for gui interface. It helps to control machine conveniently.  
 
 ### 3. Reulst
