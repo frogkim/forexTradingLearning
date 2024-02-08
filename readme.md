@@ -77,7 +77,7 @@ There are two neural networks, target and main.
 ![GUI](https://github.com/frogkim/pictures/blob/main/ftl_01.png)    
   tkinter is used for gui interface. It helps to control machine conveniently.  
 
-### 3. Reulst
+### 3. Result
 ![Result Tensorboard](https://github.com/frogkim/pictures/blob/main/ftl_04.png)  
 Tensorboard is tool of tensorflow for visualization.  
 MSE(Mean Square Error) is error term between a machine's prediction and target.  
